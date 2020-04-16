@@ -17,7 +17,7 @@
         console.log('records: ' + records)
     })
 
-     function submit(e) {
+    function submit(e) {
         console.log('record: ' +JSON.stringify(records))
          collection.add(record)
         
