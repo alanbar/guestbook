@@ -8,6 +8,7 @@
     let record = { ...emptyRecord}
     let records = []
     
+    // guestbook collection s/cut
     const collection = firebase.firestore().collection("guestbook")
     const storageRef = firebase.storage().ref();
     
