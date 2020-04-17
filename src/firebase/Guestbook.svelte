@@ -3,7 +3,8 @@
     import "firebase/firestore"
     import "firebase/storage"
     import { onMount } from "svelte"  // added to test initialisation
-
+    
+    // test add remote
     let emptyRecord = {title: "", file: null}
     let record = { ...emptyRecord}
     let records = []
