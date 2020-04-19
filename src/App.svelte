@@ -34,10 +34,3 @@
     <button on:click={login}>Login</button>
 {/if}
 
-<!-- <style>
-    .profile img.profile {
-        height: 50px;
-        width: 50px;
-        display: block
-    }
-</style> -->
